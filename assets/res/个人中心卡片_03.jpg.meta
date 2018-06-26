@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "1877960e-b3c9-4ab7-b054-47e9916c2306",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "个人中心卡片_03": {
+      "ver": "1.0.3",
+      "uuid": "f255e8a6-e44e-4dce-b906-83655c870284",
+      "rawTextureUuid": "1877960e-b3c9-4ab7-b054-47e9916c2306",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 247,
+      "height": 26,
+      "rawWidth": 247,
+      "rawHeight": 26,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
