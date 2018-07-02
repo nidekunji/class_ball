@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "57493640-5da1-4d64-8176-3fd91fa20810",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "竞猜记录2": {
+      "ver": "1.0.3",
+      "uuid": "57d13a9c-b477-4fbf-a51f-5ba58524c437",
+      "rawTextureUuid": "57493640-5da1-4d64-8176-3fd91fa20810",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 640,
+      "height": 960,
+      "rawWidth": 640,
+      "rawHeight": 960,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

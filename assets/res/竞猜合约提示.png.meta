@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "6109109e-b474-4601-9881-409414730221",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "竞猜合约提示": {
+      "ver": "1.0.3",
+      "uuid": "937aaa2f-a83a-4843-8bfa-02fbbf603c52",
+      "rawTextureUuid": "6109109e-b474-4601-9881-409414730221",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 628,
+      "height": 863,
+      "rawWidth": 628,
+      "rawHeight": 863,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "66e9b10c-0ef7-4dd9-a03e-3b1f24035e6c",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "积分问号": {
+      "ver": "1.0.3",
+      "uuid": "c33124d8-5bcc-467e-8d8f-eecfbb4effb2",
+      "rawTextureUuid": "66e9b10c-0ef7-4dd9-a03e-3b1f24035e6c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 40,
+      "height": 40,
+      "rawWidth": 40,
+      "rawHeight": 40,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
