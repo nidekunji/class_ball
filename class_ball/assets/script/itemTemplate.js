@@ -94,7 +94,7 @@ cc.Class({
             this.select = parseInt(this.select);
             let param = "token="+Global.token+"&match_id="+this.id+"&team_id="+this.select+"&amount="+this.amount;
             
-            HttpRequest.POST("http://119.23.224.88:443/api/wx/bet",param,function(){  
+            HttpRequest.POST("https://blockchain4.applinzi.com/api/wx/bet",param,function(){  
            console.log("传递成功-----------");
         });
     

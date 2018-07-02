@@ -8,7 +8,7 @@ cc.Class({
 
     start () {
         var self=this;
-        HttpRequest.GET("https://blockchain4.applinzi.com/api/getAllMatches", function(err, data){//http://localhost/api/getAllMatches
+        HttpRequest.GET("https://blockchain4.applinzi.com/api/getAllMatches", function(err, data){
             if(!err){
                 let matches = JSON.parse(data);
                 //matches = JSON.parse(matches.matchData);

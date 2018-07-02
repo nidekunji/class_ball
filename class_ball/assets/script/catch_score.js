@@ -25,7 +25,7 @@ cc.Class({
        var showProb =  cc.sys.localStorage.getItem('pro');
        var count = cc.sys.localStorage.getItem('count');
 
-       if(count ==""||count ==null){
+       if(count ==""|| count ==null){
         this.label.string ="累计积分：0" ;
         this.pro.string = "胜率 ：100%";
         cc.sys.localStorage.setItem('grade',0);//累计分数

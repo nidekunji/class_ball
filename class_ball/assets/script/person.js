@@ -1,14 +1,18 @@
+
+
 cc.Class({
     extends: cc.Component,
-   
+
     properties: {
        
     },
-    onLoad() {
-    },
-    start() {
+    start () {
+        
         this.node.on(cc.Node.EventType.TOUCH_END, function (event) {
-            cc.director.loadScene("firendRinkList");
+            cc.director.loadScene("record");
         }, this.node);
+
     },
+
+  
 });

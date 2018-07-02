@@ -13,6 +13,4 @@ cc.Class({
         }, this.node);
 
     },
-
-  
 });
