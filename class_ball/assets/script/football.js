@@ -107,12 +107,6 @@ cc.Class({
             this.time.init(this);
             
         }, 3);
-
-       
-
-        
-
-
     },
 
     show_dlg: function (node) {
@@ -152,7 +146,7 @@ cc.Class({
     start() {
         this.start_x = this.node.x;
         this.start_y = this.node.y;
-      cc.audioEngine.play(this.gameAudio, false);
+        cc.audioEngine.play(this.gameAudio, false);
         this.body = this.getComponent(cc.RigidBody);
       
        

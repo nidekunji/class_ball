@@ -7,7 +7,7 @@ window.Global = {
     win:0,
     allGame:0,
     winPro:null,
-    opendId:null,
+    opendid:null,
     userInfo:null,
     userImg:null,
 };

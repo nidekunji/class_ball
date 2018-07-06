@@ -62,12 +62,14 @@ cc.Class({
                                 var avatarUrl = res.userInfo.avatarUrl;//用户头像图片url
                                 func1(nickName);
                                 func2(avatarUrl);
+                                Global.openid = wx.getStorageSync('openid');
+                                console.log("Print openid: "+Global.openid);
                                 wx.request({
                                     url: "https://blockchain4.applinzi.com/api/wx/reg",//服务器保存的token
                                     data: {//发送用户信息
                                         nickName: nickName,
-                                        avatarUrl: avatarUrl,
-                                       
+                                        avatarUrl: avatarUrl, 
+                                        openid:Global.openid
                                     },
                                     method: 'POST',
                                     header: {//发送tocken
@@ -75,7 +77,13 @@ cc.Class({
                                     },
                                     success: function (src) {
                                         console.log("发送token-----------3--------返回值-----");
-                                        console.log(src);
+                                        console.log(src+"src");
+                                        console.log(src.data + "src.data");
+                                        Global.token = src.data.token;
+                                        Global.score = src.data.score;
+                                        wx.setStorageSync('token', src.data.token);
+                                        wx.setStorageSync('score', src.data.score);
+                                        Global.token = (wx.getStorageSync('token'));
                                     },
                                 });
                             }
@@ -112,8 +120,11 @@ cc.Class({
                                 console.log("得到token------------" + JSON.stringify(res.data.token));
                                 Global.token = res.data.token;
                                 Global.score = res.data.score;
+                                Global.openid = res.data.openid;
+                                wx.setStorageSync('openid', res.data.openid);
                                 wx.setStorageSync('token', res.data.token);
                                 wx.setStorageSync('score', res.data.score);
+                                Global.token = (wx.getStorageSync('token'));
                                 
                                 if (Global.token != null) {
                                     //第三步-----------授权

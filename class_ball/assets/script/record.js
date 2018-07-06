@@ -9,8 +9,6 @@ cc.Class({
        team: cc.Label,
     },
 
-   
-
    onLoad () {
 
         var self=this;

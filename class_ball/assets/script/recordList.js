@@ -23,11 +23,11 @@ cc.Class({
                 matches = matches.bet_history;
                 console.log("bet_history: "+JSON.stringify(matches));
                 for(let i=0; i<matches.length; i++){
-                    self.node.height = 200 * matches.length;
+                    //self.node.height = 200 * matches.length;
                     console.log(self.node.height +"高度");
                     let recordData = JSON.stringify(matches[i]);
                     cc.loader.loadRes('prefab/record', function(errorMessage, loadedResource){
-                        console.log('record');
+                      
                         if( errorMessage ) { cc.log( '载入预制资源失败, 原因:' + errorMessage ); return; }
                         if( !( loadedResource instanceof cc.Prefab ) ) { cc.log( '你载入的不是预制资源!' ); return; }
                         

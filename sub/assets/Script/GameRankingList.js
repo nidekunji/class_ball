@@ -70,7 +70,7 @@ cc.Class({
         }
     },
     removeChild() {
-        this.node.removeChildByTag(1000);
+       
         this.rankingScrollView.node.active = false;
         this.scrollViewContent.removeAllChildren();
         this.gameOverRankLayout.active = false;

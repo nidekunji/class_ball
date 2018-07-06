@@ -5,7 +5,6 @@ cc.Class({
     properties: {
       
     },
-
     start () {
         var self=this;
         HttpRequest.GET("https://blockchain4.applinzi.com/api/getAllMatches", function(err, data){

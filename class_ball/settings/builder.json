@@ -2,7 +2,9 @@
   "appKey": "",
   "appSecret": "",
   "encryptJs": true,
-  "excludeScenes": [],
+  "excludeScenes": [
+    "6aada27d-6f77-404c-9e78-3e59910ab66d"
+  ],
   "fb-instant-games": {},
   "includeAnySDK": false,
   "includeSDKBox": false,
@@ -33,7 +35,7 @@
     "REMOTE_SERVER_ROOT": "https://blockchain4.applinzi.com",
     "appid": "wx18cc75dbf1ca30aa",
     "orientation": "portrait",
-    "subContext": "sub"
+    "subContext": ""
   },
   "xxteaKey": "558fdde3-ef16-40",
   "zipCompressJs": true
